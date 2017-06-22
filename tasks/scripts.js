@@ -48,7 +48,7 @@ gulp.task('scripts',()=>{
 		})
 
 		//编译完成后文件的存放路径
-		.pipe(gulp.dest('server/public/javascripts'))
+		.pipe(gulp.dest('server/public/js'))
 
 		//为了压缩文件而用重命名的方式来备份文件
 		.pipe(rename({
@@ -61,7 +61,7 @@ gulp.task('scripts',()=>{
 
 		//压缩文件的存储路径
 		//这样这个文件夹中就有两个文件，一个是压缩的，一个是未压缩的
-		.pipe(gulp.dest('server/public/javascripts'))
+		.pipe(gulp.dest('server/public/js'))
 		
 		
 		//监听文件，热更新

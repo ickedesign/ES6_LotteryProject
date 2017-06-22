@@ -39,3 +39,5 @@ const args = yargs
 
 	//表示对输入的命令行的内容以字符串作为解析
 	.argv
+
+export default args;	
